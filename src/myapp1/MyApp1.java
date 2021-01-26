@@ -1,21 +1,36 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package myapp1;
 
+
+
+import java.util.Scanner;
 /**
  *
  * @author Alex
  */
 public class MyApp1 {
+    
+    private static Scanner Scanner;
+    private static int row;
+    private static int column;
+    private static int value;
 
-    /**
-     * @param args the command line arguments
-     */
+   
     public static void main(String[] args) {
-        // TODO code application logic here
+      MyApp1.run();  
     }
+    
+    public static void run(){
+        System.out.println("Please enter the row which you would like to place the number(1-3)");
+        row = Integer.parseInt(Scanner.nextLine());
+        
+        System.out.println("Please enter the column which you would like to place the number(1-3)");
+        column = Integer.parseInt(Scanner.nextLine());
+        
+        System.out.println("Please enter the value which you would like to place the number(1-3)");
+        value = Integer.parseInt(Scanner.nextLine());
+        
+         
+    }
+    
     
 }
