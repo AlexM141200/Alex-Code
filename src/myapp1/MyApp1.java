@@ -51,5 +51,14 @@ public class MyApp1 {
       public static void printSquare(int[][] theSquare) {
           
           for (int row =0; row<3; row++);
+          {
+              for (int col=0;col<3; col++);
+              {
+                  System.out.println(theSquare[row][column] + " ");
+                  {
+                      System.out.println();
+                  }
+              }
+          }
       } 
 }
